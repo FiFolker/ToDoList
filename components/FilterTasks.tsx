@@ -9,7 +9,7 @@ const FilterTasks: React.FC<FilterTasksProps> = ({ onFilterChange }) => {
 
 	const handleFilterClick = (filter: string) => {
 		setActiveFilter(filter);
-		onFilterChange(filter);
+		onFilterChange(filter); // Call the onFilterChange function to update the task list
 	};
 
 	return (
