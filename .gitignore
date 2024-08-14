@@ -34,3 +34,17 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Windows system files
+Thumbs.db
+
+# IDE and Editor directories
+/.idea/
+/.vscode/
+/*.swp
+/.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
